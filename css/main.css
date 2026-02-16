@@ -46,7 +46,12 @@ html {
 .window:target {
     display: flex;
 }
-
+.window h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    color: #eb3a13;
+}
 .window {
     position: fixed;
     top: 0;
